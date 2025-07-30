@@ -35,3 +35,5 @@ app.listen(PORT, async () => {
     await connectDB()
 })
 
+
+console.log("git");
