@@ -1,0 +1,50 @@
+✅ 200 OK
+The request was successful.
+
+✅ 201 Created
+A new resource has been created successfully.
+
+✅ 202 Accepted
+Request received but not yet acted upon. Often used for async tasks.
+
+✅ 204 No Content
+Request succeeded but no content to return. Common after DELETE operations.
+
+⚠️ 304 Not Modified
+Used for caching. Tells client the cached version is still valid.
+
+⚠️ 400 Bad Request
+The server couldn't understand the request due to invalid syntax.
+
+🚫 401 Unauthorized
+Authentication required or failed.
+
+🚫 403 Forbidden
+Authenticated but not allowed to access the resource.
+
+🚫 404 Not Found
+Requested resource doesn’t exist.
+
+⚠️ 405 Method Not Allowed
+HTTP method used is not supported for this endpoint.
+
+⚠️ 409 Conflict
+Request conflicts with the current state of the server.
+
+⚠️ 422 Unprocessable Entity
+Server understands the content type but can't process the instructions—common in validation errors.
+
+💣 429 Too Many Requests
+Rate limit exceeded. Retry later.
+
+💣 500 Internal Server Error
+Something went wrong on the server side.
+
+💣 502 Bad Gateway
+Server received an invalid response from an upstream server.
+
+💣 503 Service Unavailable
+Server is temporarily overloaded or under maintenance.
+
+💣 504 Gateway Timeout
+Upstream server didn’t respond in time.
